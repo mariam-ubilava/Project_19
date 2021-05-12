@@ -1,0 +1,211 @@
+/* header */
+
+.header-bg-img{
+    background-image: url(../images/header-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 1080px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 235px;
+    top: 40px;
+}
+.header-text{
+    position: absolute;
+    top: 345px;
+    left: 284px;
+    font-size: 96px;
+    color: white;
+}
+.navigation{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;  
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    height: 109px;
+    background-color: #281923;
+    opacity: 61%;
+}
+.left-nav a{
+    color: white;
+}
+.left-nav a{
+    margin-right: 54px;
+}
+.left-nav a:nth-child(1){
+    margin-left: 65px;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    background-color: #A80E0E;
+    height: 109px;
+}
+.right-nav a{
+    margin-right: 54px;
+}
+.right-nav a:nth-child(1){
+    margin-left: 66px;
+}
+.right-nav a:nth-child(3){
+    margin-right:93px;
+}
+.img-wrapper{
+    background-image: url(../images/offer.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 782px;
+    height: 132px;
+    left: 171px;
+    top: 462px;
+    transform: rotate(-4deg);
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(4deg);
+    font-size: 30px;
+    color: #FFFFFF;
+    max-width: 375px;
+    font-family: 'Montserrat';
+    line-height: 40px;
+   
+}
+.ordernow{
+    background-color: #FFAA00;
+    border-radius: 90px;
+    width: 255px;
+    height: 68px;
+    position: absolute;
+    top: 689px;
+    left: 235px;
+    font-size: 27px;
+    color:#A80E0E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.section-split{
+    width: 2069px;
+    height: 71px;
+    position: absolute;
+    left: -110px;
+    top: 1040px;
+}
+
+/* .arrow1{
+    background-image: url(../images/arrow1.svg);
+    max-width: 63px;
+    position: absolute;
+    height: 54px;
+    bottom: 5%;
+    left: 50%;
+}
+.arrow2{
+  background-image: url(../images/arrow2.svg);
+  max-width:22px;
+  height: 42px;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+}
+.arrow3{
+    background-image: url(../images/arrow3.svg);
+    max-width:22px;
+    height: 42px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+  } */
+
+  /* section1 */
+
+
+.menu{
+    max-width: 1400px;
+    height: 212px;
+    margin: 0 auto;
+    display: flex;
+}
+.section-ttl{
+    width: 710px;
+    text-align: center;
+    padding-top: 119px;
+    padding-bottom: 72px;
+    margin: 0 auto;
+}
+.section-ttl h2{
+    font-size: 50px;
+    color: #A80E0E;
+    margin-bottom: 12px;
+}
+.section-ttl h3{
+    font-size: 20px;
+    color: #382E36;
+    margin-top: 18px;
+}
+/* menu navigation */
+.hover-box{
+    width: 248px;
+    height: 236px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; 
+}
+.burger-icon{
+    width: 100px;
+    height: 83px;
+    
+}
+.pizza-icon{
+    width: 95px;
+    height: 116px;
+    
+}
+.frenchfries{
+    width: 75px;
+    height: 98px;
+   
+}
+.cupcake-icon{
+    width: 70px;
+    height: 115px;
+    
+}
+.sandwich-icon{
+    width: 88px;
+    height: 88px;
+    
+}
+.spaghetti{
+    width: 108px;
+    height: 117px;
+    
+}
+/* section1 image */
+.container{
+    max-width: 1920px;
+    height: 852px;
+    padding-top: 209px;
+    background-color: #FFAA00;
+    position: relative;
+}
+.deliveryman{
+    position: absolute;
+    left: 14px;
+    top: 43px;
+}
