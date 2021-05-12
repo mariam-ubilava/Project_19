@@ -227,6 +227,17 @@
     height: 248px; 
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.right-block h3{
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 449px;
+    font-family: 'Montserrat';
+    text-align: left;
+    margin-left: 14%;
+    line-height: 30px;
+
 }
 .container-split1{
     max-width: 100%;
@@ -240,3 +251,109 @@
     left: 0;
     top: 825px;
 }
+
+/* section2 */
+.section2{
+    max-width: 1447px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.line1{
+    display: flex;
+    width: 1447px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.menu-img{
+    position: relative;
+}
+.menu-split2{
+    position:absolute;
+    top:98%;
+    left: 0;
+    height: 6px;
+    width: 444px;
+}
+.menu-box{
+    max-width: 444px;
+    height: 537px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 15px 10px #0000000c;
+}
+.menu-text{
+    margin: 35px 29px 33px 36px;
+}
+.menu-text h3{
+    margin-top: 19px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-family: 'Montserrat';
+}
+.menu-text h6{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color:#686868;
+    margin-bottom: 30px;
+}
+.menu-text h4{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+.menu-text h4::before{
+    content: url(../images/rate-icon.svg);
+    max-width: 21px;
+    height: 20px;
+    margin-right: 7.1px;
+    display: flex;
+    align-items: center;
+}
+.cart-wrapper{
+    display: flex;
+   align-items: center;
+}
+.cart-div{
+    background-color: #FFAA00;
+    border-radius: 30px;
+    width: 164px;
+ 
+}
+.addtocart{
+    align-self: center;
+    max-width: 164px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: white;
+    
+}
+.addtocart img{
+    margin-right: 12px;
+}
+.money{
+    font-size: 22px;
+    color: #A80E0E;
+    margin-left: 12px;
+}
+/* show our menu thing */
+.show-menu{
+    background-color: #A80E0E;
+    border-radius: 90px;
+    width: 255px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 18px;
+    color:white;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    
+}
+
