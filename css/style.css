@@ -396,5 +396,37 @@
     bottom: -30px;
     left: 0;
 }
-
-
+/* section3 testimonials part */
+.testimonials{
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.testimonials-l{
+    width: 50%;
+    height: 745px;
+    position: relative;
+}
+.woman-burger{
+    max-width: 670px;
+    height: 636px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 15;
+}
+.redbox{
+    max-width: 414px;
+    height: 363px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+.testimonials-r{
+    max-width: 50%;
+}
+.testimonials-r p{
+    max-width: 710px;
+}
