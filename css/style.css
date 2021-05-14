@@ -587,28 +587,102 @@
     max-width:1920px;
     height: 561px;
     background-image: url(../images/footer-bg.jpg);
-
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .footer-wrapper{
     width: 1450px;
-    margin: 0 auto;
+    height: 300px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .logo-ft{
     width: 561px;
 }
+.logo-ft p{
+    font-size: 16x;
+    font-family: 'Montserrat';
+    color: #000000;
+    margin-top: 32.5px;
+    margin-bottom: 11px;
+}
+.cards{
+    width: 351px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardsize{
+    font-size: 45px;
+}
+
 .links{
     width: 445px;
 }
-.insta-feed{
+.links-text{
+    font-size: 20px;
+    color: #A80E0E;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+.links-text::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #FFAA00;
+    display: block;
+    margin-top: 17.5px;
+    margin-bottom: 48.5px;
+}
+.insta-text{
+    font-size: 20px;
+    color: #A80E0E;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+.insta-text::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #FFAA00;
+    display: block;
+    margin-top: 17.5px;
+    margin-bottom: 48.5px;
+}
+.row-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.row1 p{
+    margin-bottom: 30px;
+    color: #686868;
+    font-size: 16x;
+    font-family: 'Montserrat';
+    
+}
+.row2 p{
+    margin-bottom: 30px;
+    color: #686868;
+    font-size: 16x;
+    font-family: 'Montserrat';
+}
+.image-wrapper{
     display: flex;
     width: 351px;
-    flex-direction:inherit;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .insta-img{
-    width: 30%;
-    height: 93px;
+    margin-bottom: 27px;
+}
+.footer::after{
+    content: "© 2019, Hot Burgers. All rights reserved";
+    width: 1450px;
+    height: 1px;
+    background-color: #707070;
+    opacity: 0.3;
+    display: block;
+    margin-top: 69.5px;
+    text-align: center;
 }
