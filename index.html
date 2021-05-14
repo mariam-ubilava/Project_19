@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/aa83a973b3.js" crossorigin="anonymous"></script>
     <title>Project 19</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -261,29 +262,31 @@
     </section>
     <section>
         <div class="sect5">
+            <!-- splited section5 for two div-s: left (adress) and right(g-map) -->
             <div class="adress">
-                <h5>Call Us</h5>
-                <h3>1-234-567-890</h3>
-                <div class="info">
-                    <div class="info-l">
-                        <img src="images/clock.svg" alt="clock">
+                <div class="adress-text">
+                    <a href="callto:+1234567890" class="callus">Call Us</a>
+                    <h3>1-234-567-890</h3>
+                    <div class="time">
+                        <img src="images/clock.svg" class="clock" alt="clock-icon">
+                        <div class="icon-text">
+                            <p>mon-thu: 11.00 – 23.00</p>
+                            <p>sat: 12.00 – 23.00  |  sun: 12.00 – 21.00</p>
+                        </div>
                     </div>
-                    <div class="info-r">
-                        <p>mon-thu: 11.00 – 23.00 </p>
-                        <p>sat: 12.00 – 23.00  |  sun: 12.00 – 21.00 </p>
+                    <div class="split"></div>
+                    <div class="location">
+                        <img src="images/placeholder.svg" class="placeholder" alt="location-icon">
+                        <div class="icon-text">
+                            <p>123 East 456th Street,</p>
+                            <p>New York City NY 10065</p>
+                        </div>
                     </div>
-                </div>
-                <div class="info">
-                    <div class="info-l">
-                        <img src="images/placeholder.svg" alt="location">
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook-f social"></i></a>
+                        <a href=""><i class="fab fa-twitter social"></i></a>
+                        <a href=""><i class="fab fa-instagram social"></i></a>
                     </div>
-                    <div class="info-r">
-                        <p>123 East 456th Street,</p>
-                        <p>New York City NY 10065</p>
-                    </div>
-                </div>
-                <div class="social">
-                    <a href="#"> <img src="" alt=""></a>
                 </div>
             </div>
             <div class="g-map">
@@ -292,18 +295,42 @@
         </div>
     </section>
     <footer>
-        <div class="logo-ft">
-            <img src="images/ft-logo.jpg" class="footer-logo" alt="logo">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-            <img src="images/amex.png" alt="">
-            <img src="images/visa-logo.png" alt="">
-            <img src="images/maestro.png" alt="">
-            <img src="images/discover.png" alt="">
-            <i class="fab fa-google-pay g-pay"></i>
-            <i class="fab fa-apple-pay a-pay"></i> 
+        <div class="footer">
+            <div class="footer-wrapper">
+                <div class="logo-ft">
+                    <img src="images/ft-logo.jpg" class="footer-logo" alt="logo">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-discover"></i>
+                    <i class="fab fa-google-pay g-pay"></i>
+                    <i class="fab fa-apple-pay a-pay"></i> 
+                </div>
+                <div class="links">
+                    <h3>Usefull Links</h3>
+                    <a href="#"><p>About</p></a>
+                    <a href="#"><p>Menu</p></a>
+                    <a href="#"><p>Testimonials</p></a>
+                    <a href="#"><p>Contct Us</p></a>
+                    <a href="#"><p>Wishlist</p></a>
+                    <a href="#"><p>Privacy Policy</p></a>
+                    <a href="#"><p>Order Tracking</p></a>
+                    <a href="#"><p>Warranty and Services</p></a>                
+                </div>
+                <div> 
+                    <h3>Instagram Feeds</h3>
+                    <div insta-feed>
+                        <div class="insta-img"><a href="#"></a><img src="images/insta-feed1.jpg" alt=""></a></div>
+                        <div class="insta-img"><a href="#"><img src="images/insta-feed2.jpg" alt=""></a></div>
+                        <div class="insta-img"><a href="#"><img src="images/insta-feed3.jpg" alt=""></a></div>
+                        <div class="insta-img"><a href="#"><img src="images/slide-bg-1.jpg" alt=""></a></div>
+                        <div class="insta-img"><a href="#"><img src="images/h5-slide1.jpg" alt=""></a></div>
+                        <div class="insta-img"><a href="#"><img src="images/insta-feed6.jpg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div> </div>
-        <div> </div>
     </footer>
 </body>
 </html>
