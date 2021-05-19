@@ -501,10 +501,15 @@
 /* section 5 */
 .sect5{
     max-width: 1920px;
+    display: flex;
 
 }
-.sect5-l {
+.adress {
     width: 50%;
     height: 637px;
     background-color: #A80E0E;
+}
+.g-map {
+    width: 950px;
+    height: 637px;
 }
