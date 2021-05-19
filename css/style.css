@@ -159,7 +159,7 @@
 .hover-box{
     width: 248px;
     height: 236px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -444,4 +444,67 @@
     font-size: 16px;
     color: #686868;
     font-family: 'Montserrat';
+}
+/* section 4 */
+.section4-bg{
+    background-color: #FFAA00;
+    max-width: 100%;
+    height: 654px;
+    position: relative;
+    margin-top: 178px;
+}
+.sect4-brush {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    max-width: 100%;
+}
+.service-box{
+    width: 326px;
+    height: 316px;
+    background-color: #FFFFFF;
+}
+.sect4-wrapper {
+    margin: 0 auto;
+    padding-top: 187px;
+    display: flex;
+    justify-content: space-around;
+}
+.service-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-box h3{
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Montserrat';
+    width: 178px;
+    margin-top: 16.8px;
+}
+.service-box h3::after{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #FFAA00;
+    display: block;
+    margin: 17.5px auto;
+}
+.service-box p{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    width: 218px;
+    color: #686868;
+}
+/* section 5 */
+.sect5{
+    max-width: 1920px;
+
+}
+.sect5-l {
+    width: 50%;
+    height: 637px;
+    background-color: #A80E0E;
 }
